@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Norval 76, votre expert en ravalement de façades en Seine-Maritime">
+    <title>Norval 76 - Ravalement de Façades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Norval 76" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Nos Services</a></li>
+                <li><a href="#realisations">Nos Réalisations</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="accueil">
+        <div class="hero">
+            <h1>Bienvenue chez Norval 76</h1>
+            <p>Experts en ravalement de façades et rénovation extérieure.</p>
+            <a href="#contact" class="cta-button">Demander un devis</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <div class="services-container">
+            <div class="service-card">
+                <h3>Ravalement de Façades</h3>
+                <p>Réparation de fissures, nettoyage et peinture de façades.</p>
+            </div>
+            <div class="service-card">
+                <h3>Isolation Thermique</h3>
+                <p>Amélioration de l’efficacité énergétique de votre bâtiment.</p>
+            </div>
+            <div class="service-card">
+                <h3>Peinture Extérieure</h3>
+                <p>Peintures de haute qualité adaptées à tous types de murs extérieurs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="realisations">
+        <h2>Nos Réalisations</h2>
+        <div class="gallery">
+            <img src="avant-apres1.jpg" alt="Avant/Après 1" />
+            <img src="avant-apres2.jpg" alt="Avant/Après 2" />
+            <img src="avant-apres3.jpg" alt="Avant/Après 3" />
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="send_form.php" method="POST">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Norval 76. Tous droits réservés. | <a href="mentions-legales.html">Mentions légales</a></p>
+    </footer>
+</body>
+</html>
